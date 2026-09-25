@@ -36,6 +36,7 @@ a:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
 .author-avatar img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 42%; }
 .author-content { width: 100%; }
 .author-name { margin: 1.15rem 0 .25rem; color: var(--heading); font-size: 1.45rem; font-weight: 680; letter-spacing: -.025em; line-height: 1.25; }
+.author-signature { display: block; width: 152px; max-width: 100%; height: auto; margin: .2rem 0 .55rem; }
 .author-bio { margin: 0 0 1.2rem; color: var(--gray); font-size: .92rem; line-height: 1.5; }
 .profile-description { margin: 0 0 1.1rem; color: #55616a; font-size: .9rem; line-height: 1.6; }
 .author-urls { margin: 0; padding: 0; list-style: none; }
@@ -117,6 +118,7 @@ a:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
   .author-avatar { flex: 0 0 75px; width: 75px; }
   .author-content { min-width: 120px; width: auto; }
   .author-name { margin: 0; }
+  .author-signature { width: 120px; margin: .12rem 0 .25rem; }
   .author-bio { margin: 4px 0 0; }
   .author-urls-wrapper { margin-left: auto; }
   .profile-description { display: none; }
